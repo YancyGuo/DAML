@@ -1,31 +1,16 @@
-<<<<<<< HEAD
-# Hardness-Aware Deep Metric Learning
-Implementation of Hardness-Aware Deep Metric Learning (CVPR 2019 Oral) in Tensorflow.
+# DAML
 
-- HDML:  [Hardness-Aware Deep Metric Learning](https://arxiv.org/abs/1903.05503.pdf)
-
-Work in progress.
-
-Please use the citation provided below if it is useful to your research:
-
-Wenzhao Zheng, Zhaodong Chen, Jiwen Lu, and Jie Zhou, Hardness-Aware Deep Metric Learning, arXiv, abs/1903.05503, 2019. 
+Create a Conda environment:
 
 ```bash
-@inproceedings{zheng2019hardness,
-  title={Hardness-aware deep metric learning},
-  author={Zheng, Wenzhao and Chen, Zhaodong and Lu, Jiwen and Zhou, Jie},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  pages={72--81},
-  year={2019}
-}
+conda env create -f environment.yml
 ```
+This will create a new Conda environment based on the environment.yml file.
 
-
-# Dependencies
-```bash
-pip install tensorflow==1.10.0
+Activate the Conda environment:
 ```
-
+conda activate your_environment_name
+```
 # Dataset
 Stanford Cars Dataset (Cars196)
 
@@ -46,8 +31,4 @@ python main_npair.py --dataSet='cars196' --batch_size=128 --Regular_factor=5e-3 
 ```
 
 
-# Code Reference
-deep\_metric\_learning (https://github.com/ronekko/deep_metric_learning) by [ronekko](https://github.com/ronekko) for dataset codes. 
-=======
-# DAML
->>>>>>> 0c8d64673f585bfbc54be7bf05d7be42b6104e55
+

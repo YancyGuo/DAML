@@ -1,0 +1,16 @@
+name: your_environment_name
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - tensorflow-gpu=1.10.0
+  - opencv-python=4.5.5.62
+  - numpy=1.19.5
+  - pandas=1.1.5
+  - scipy=1.1.0
+  - keras=2.2.0
+  - matplotlib=2.2.5
+  - pip:
+    - pillow==8.4.0
+    - scikit-learn==0.24.2
+    - scikit-image==0.16.2

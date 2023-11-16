@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hardness-Aware Deep Metric Learning
 Implementation of Hardness-Aware Deep Metric Learning (CVPR 2019 Oral) in Tensorflow.
 
@@ -47,3 +48,6 @@ python main_npair.py --dataSet='cars196' --batch_size=128 --Regular_factor=5e-3 
 
 # Code Reference
 deep\_metric\_learning (https://github.com/ronekko/deep_metric_learning) by [ronekko](https://github.com/ronekko) for dataset codes. 
+=======
+# DAML
+>>>>>>> 0c8d64673f585bfbc54be7bf05d7be42b6104e55
